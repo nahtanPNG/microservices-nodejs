@@ -1,0 +1,10 @@
+name: microservices-node-infra
+description: microservices in node
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
